@@ -2,6 +2,21 @@ import 'package:flutter/material.dart';
 
 const List mainChannel = [
   [
+    "1,000 Deaf People Hear For The First Time",
+    "https://youtu.be/WTOm65IZneg",
+    "https://i.ytimg.com/vi/WTOm65IZneg/maxresdefault.jpg"
+  ],
+  [
+    "\$1 vs \$500,000 Plane Ticket",
+    "https://youtu.be/1WEAJ-DFkHE",
+    "https://i.ytimg.com/vi/1WEAJ-DFkHE/maxresdefault.jpg"
+  ],
+  [
+    "I Paid A Real Assassin To Try To Kill Me",
+    "https://youtu.be/YLt73w6criQ",
+    "https://i.ytimg.com/vi/YLt73w6criQ/maxresdefault.jpg"
+  ],
+  [
     "1,000 Blind People See For The First Time",
     "https://youtu.be/TJ2ifmkGGus",
     "https://i.ytimg.com/vi/TJ2ifmkGGus/maxresdefault.jpg"
@@ -270,7 +285,7 @@ const List mainChannel = [
     "Why I Haven’t Been Uploading",
     "https://youtu.be/TDiXxsQ0w2Q",
     "https://i.ytimg.com/vi/TDiXxsQ0w2Q/maxresdefault.jpg"
-  ]
+  ],
 ];
 
 var sizedbox0 = const SizedBox(

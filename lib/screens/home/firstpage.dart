@@ -29,7 +29,7 @@ class FirstPage extends StatelessWidget {
           const Padding(
             padding: EdgeInsets.fromLTRB(8.0, 0, 0, 0),
             child: Text(
-              "Kushal",
+              "Have a good time,",
               style: TextStyle(fontSize: 22, fontWeight: FontWeight.w500),
             ),
           ),
@@ -124,7 +124,7 @@ class FirstPage extends StatelessWidget {
                 child: const Padding(
                   padding: EdgeInsets.fromLTRB(6, 4, 6, 4.0),
                   child: Text(
-                    "View all ➡",
+                    "More >",
                     style: TextStyle(
                       // decoration: TextDecoration.underline,
                       fontSize: 15,

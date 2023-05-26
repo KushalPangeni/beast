@@ -1,5 +1,15 @@
 final List beastPhilanthrophy = [
   [
+    "I Helped 2000 Amputees Walk Again",
+    "https://youtu.be/l5PvwYZQtT8",
+    "https://i.ytimg.com/vi/l5PvwYZQtT8/maxresdefault.jpg"
+  ],
+  [
+    "I Gave Away \$2,700,000 of Free Clothes",
+    "https://youtu.be/XrWhDx9Zblo",
+    "https://i.ytimg.com/vi/XrWhDx9Zblo/maxresdefault.jpg"
+  ],
+  [
     "Giving 20,000 Shoes To Kids In Africa",
     "https://youtu.be/3fKTFq-0_IY",
     "https://i.ytimg.com/vi/3fKTFq-0_IY/maxresdefault.jpg"
