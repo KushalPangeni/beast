@@ -22,6 +22,26 @@ class _MoreState extends State<More> {
       body: SingleChildScrollView(
         child: Column(
           children: [
+            Container(
+              padding: EdgeInsets.all(12),
+              margin: EdgeInsets.all(10),
+              decoration: BoxDecoration(
+                  color: Colors.green,
+                  shape: BoxShape.rectangle,
+                  borderRadius: BorderRadius.circular(10),
+                  image: DecorationImage(image: AssetImage('images/tree.png'), fit: BoxFit.fill)),
+              child: ListTile(
+                title: Center(
+                    child: Text(
+                  "Plant Trees",
+                  style: TextStyle(fontSize: 22, fontWeight: FontWeight.w500),
+                )),
+                onTap: () async {
+                  fetch.setUrl("https://teamtrees.org/");
+                  fetch.fetch();
+                },
+              ),
+            ),
             ListTile(
               title: Text("MrBeast Burger"),
               onTap: () async {
@@ -59,42 +79,10 @@ class _MoreState extends State<More> {
             ListTile(
               title: Text("Jobs"),
               onTap: () async {
-                fetch.setUrl(
-                    "https://www.google.com/search?q=ipl+2023&oq=ipl&aqs=edge.1.69i59j0i131i433i512j0i3j0i131i433i512l2j0i131i433i650j0i131i433i512l2j69i64.2842j0j1&sourceid=chrome&ie=UTF-8#sie=lg;/g/11q99yy05p;5;/m/03b_lm1;mt;fp;1;;;");
+                fetch.setUrl("https://www.mrbeastjobs.com");
                 fetch.fetch();
               },
             ),
-            // ListTile(
-            //   title: Text("Art"),
-            //   onTap: () async {
-            //     Navigator.push(
-            //       context,
-            //       MaterialPageRoute(
-            //         builder: (context) => WebPage(),
-            //       ),
-            //     );
-            //     // fetch.setUrl("https://lexica.art");
-            //     // fetch.fetch();
-            //   },
-            // ),
-            // SelectableText(
-            //   "This text can be copied, really??",
-            //   style: TextStyle(
-            //       color: Colors.red, fontSize: 25, fontWeight: FontWeight.bold),
-            // ),
-            // SelectableText(str),
-            // sizedbox2,
-            // GestureDetector(
-            //   onTap: () {
-            //     Clipboard.setData(ClipboardData(text: str));
-            //     log("copied");
-            //     ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-            //       content: Text("Copied"),
-            //       duration: Duration(milliseconds: 350),
-            //     ));
-            //   },
-            //   child: Text("Copy"),
-            // )
           ],
         ),
       ),

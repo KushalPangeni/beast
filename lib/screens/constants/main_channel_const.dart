@@ -1,6 +1,17 @@
 import 'package:flutter/material.dart';
 
 const List mainChannel = [
+  ["Train Vs Giant Pit", "https://youtu.be/fuhE6PYnRMc", "https://i.ytimg.com/vi/fuhE6PYnRMc/maxresdefault.jpg"],
+  [
+    "\$1 vs \$1,000,000,000 Yacht!",
+    "https://youtu.be/48h57PspBec",
+    "https://i.ytimg.com/vi/48h57PspBec/maxresdefault.jpg"
+  ],
+  [
+    "Ages 1 - 100 Fight For \$500,000",
+    "https://youtu.be/FM7Z-Xq8Drc",
+    "https://i.ytimg.com/vi/FM7Z-Xq8Drc/maxresdefault.jpg"
+  ],
   [
     "1,000 Deaf People Hear For The First Time",
     "https://youtu.be/WTOm65IZneg",
@@ -51,16 +62,8 @@ const List mainChannel = [
     "https://youtu.be/gHzuabZUd6c",
     "https://i.ytimg.com/vi/gHzuabZUd6c/maxresdefault.jpg"
   ],
-  [
-    "I Hunted 100 People!",
-    "https://youtu.be/65fN_OUawjk",
-    "https://i.ytimg.com/vi/65fN_OUawjk/maxresdefault.jpg"
-  ],
-  [
-    "I Survived A Plane Crash",
-    "https://youtu.be/jdMNoQE3mIQ",
-    "https://i.ytimg.com/vi/jdMNoQE3mIQ/maxresdefault.jpg"
-  ],
+  ["I Hunted 100 People!", "https://youtu.be/65fN_OUawjk", "https://i.ytimg.com/vi/65fN_OUawjk/maxresdefault.jpg"],
+  ["I Survived A Plane Crash", "https://youtu.be/jdMNoQE3mIQ", "https://i.ytimg.com/vi/jdMNoQE3mIQ/maxresdefault.jpg"],
   [
     "I Gave My 100,000,000th Subscriber An Island",
     "https://youtu.be/2isYuQZMbdU",
@@ -141,11 +144,7 @@ const List mainChannel = [
     "https://youtu.be/zxYjTTXc-J8",
     "https://i.ytimg.com/vi/zxYjTTXc-J8/maxresdefault.jpg"
   ],
-  [
-    "I Got Hunted By The FBI",
-    "https://youtu.be/hxwpkM5w3Cc",
-    "https://i.ytimg.com/vi/hxwpkM5w3Cc/maxresdefault.jpg"
-  ],
+  ["I Got Hunted By The FBI", "https://youtu.be/hxwpkM5w3Cc", "https://i.ytimg.com/vi/hxwpkM5w3Cc/maxresdefault.jpg"],
   [
     "If You Can Carry \$1,000,000 You Keep It!",
     "https://youtu.be/ktyJIj6i4Qw",
@@ -161,11 +160,7 @@ const List mainChannel = [
     "https://youtu.be/nM89Wl03Q4g",
     "https://i.ytimg.com/vi/nM89Wl03Q4g/maxresdefault.jpg"
   ],
-  [
-    "Hit The Target, Win \$300,000",
-    "https://youtu.be/NZlClr_ivb4",
-    "https://i.ytimg.com/vi/NZlClr_ivb4/hqdefault.jpg"
-  ],
+  ["Hit The Target, Win \$300,000", "https://youtu.be/NZlClr_ivb4", "https://i.ytimg.com/vi/NZlClr_ivb4/hqdefault.jpg"],
   [
     "Anything You Can Fit In The Triangle I’ll Pay For",
     "https://youtu.be/E6E22XQPhhg",
@@ -201,11 +196,7 @@ const List mainChannel = [
     "https://youtu.be/DuQbOQwVaNE",
     "https://i.ytimg.com/vi/DuQbOQwVaNE/maxresdefault.jpg"
   ],
-  [
-    "I Sold My House For \$1",
-    "https://youtu.be/vJH28ICkCdU",
-    "https://i.ytimg.com/vi/vJH28ICkCdU/maxresdefault.jpg"
-  ],
+  ["I Sold My House For \$1", "https://youtu.be/vJH28ICkCdU", "https://i.ytimg.com/vi/vJH28ICkCdU/maxresdefault.jpg"],
   [
     "If You Press This, I’ll Pay...",
     "https://youtu.be/_uwNDiU04zE",
@@ -266,11 +257,7 @@ const List mainChannel = [
     "https://youtu.be/vp5sSqyZ5Go",
     "https://i.ytimg.com/vi/vp5sSqyZ5Go/maxresdefault.jpg"
   ],
-  [
-    "Hi Me In 5 Years",
-    "https://youtu.be/AKJfakEsgy0",
-    "https://i.ytimg.com/vi/AKJfakEsgy0/maxresdefault.jpg"
-  ],
+  ["Hi Me In 5 Years", "https://youtu.be/AKJfakEsgy0", "https://i.ytimg.com/vi/AKJfakEsgy0/maxresdefault.jpg"],
   [
     "Would You Rather Have A Giant Diamond or \$100,000?",
     "https://youtu.be/Vl3swga-Xrk",

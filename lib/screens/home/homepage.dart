@@ -1,7 +1,9 @@
 // ignore_for_file: prefer_const_literals_to_create_immutables, prefer_const_constructors
 
+import 'dart:developer';
+
 import 'package:best/screens/constants/main_channel_const.dart';
-import 'package:best/screens/player/player.dart';
+import 'package:best/widgets/urls.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:shimmer/shimmer.dart';
@@ -39,15 +41,8 @@ class _HomepageState extends State<Homepage> {
       padding: const EdgeInsets.fromLTRB(4, 10, 4, 10),
       child: InkWell(
         onTap: () {
-          Navigator.push(
-            context,
-            MaterialPageRoute(
-              builder: ((context) => Player(
-                    url: imgSrc[1],
-                    title: imgSrc[0],
-                  )),
-            ),
-          );
+          log(imgSrc.toString());
+          launchYouTubeApp(imgSrc[1]);
         },
         child: Column(
           children: [

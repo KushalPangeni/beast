@@ -1,4 +1,5 @@
-import 'package:best/screens/constants/react_channel_const.dart';
+import 'package:best/screens/constants/beast_gaming.dart';
+import 'package:best/screens/constants/beast_reacts.dart';
 
 import 'beast_philanthropy_const.dart';
 import 'main_channel_const.dart';
@@ -8,5 +9,6 @@ List oflist = [
   mainChannel,
   mrbeast2,
   beastPhilanthrophy,
-  reactChannel,
+  beastReacts,
+  beastGaming,
 ];

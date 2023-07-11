@@ -1,5 +1,15 @@
 final List beastPhilanthrophy = [
   [
+    "We're Giving Away 1,000 Electric Bikes for Free",
+    "https://youtu.be/18xB7LFRv6E",
+    "https://i.ytimg.com/vi/18xB7LFRv6E/maxresdefault.jpg"
+  ],
+  [
+    "We Powered a Remote Island",
+    "https://youtu.be/xi8A6qQbZ18",
+    "https://i.ytimg.com/vi/xi8A6qQbZ18/maxresdefault.jpg"
+  ],
+  [
     "I Helped 2000 Amputees Walk Again",
     "https://youtu.be/l5PvwYZQtT8",
     "https://i.ytimg.com/vi/l5PvwYZQtT8/maxresdefault.jpg"
@@ -14,11 +24,7 @@ final List beastPhilanthrophy = [
     "https://youtu.be/3fKTFq-0_IY",
     "https://i.ytimg.com/vi/3fKTFq-0_IY/maxresdefault.jpg"
   ],
-  [
-    "We Saved an Orphanage",
-    "https://youtu.be/NHXFQSlXNa4",
-    "https://i.ytimg.com/vi/NHXFQSlXNa4/maxresdefault.jpg"
-  ],
+  ["We Saved an Orphanage", "https://youtu.be/NHXFQSlXNa4", "https://i.ytimg.com/vi/NHXFQSlXNa4/maxresdefault.jpg"],
   [
     "Rebuilding Homes for Tornado Survivors",
     "https://youtu.be/BNO6DjteidM",
@@ -49,11 +55,7 @@ final List beastPhilanthrophy = [
     "https://youtu.be/7gYpJotNUEs",
     "https://i.ytimg.com/vi/7gYpJotNUEs/maxresdefault.jpg"
   ],
-  [
-    "We Built Wells in Africa!",
-    "https://youtu.be/aSQUg-h8G4s",
-    "https://i.ytimg.com/vi/aSQUg-h8G4s/maxresdefault.jpg"
-  ],
+  ["We Built Wells in Africa!", "https://youtu.be/aSQUg-h8G4s", "https://i.ytimg.com/vi/aSQUg-h8G4s/maxresdefault.jpg"],
   [
     "Anything You Can Fit In The Circle I'll Donate To Charity",
     "https://youtu.be/KVKqOwN6uL0",
@@ -74,11 +76,7 @@ final List beastPhilanthrophy = [
     "https://youtu.be/YnE8nAyu8HQ",
     "https://i.ytimg.com/vi/YnE8nAyu8HQ/hqdefault.jpg"
   ],
-  [
-    "Cleaning the Ocean!",
-    "https://youtu.be/W19fHXDaUw4",
-    "https://i.ytimg.com/vi/W19fHXDaUw4/maxresdefault.jpg"
-  ],
+  ["Cleaning the Ocean!", "https://youtu.be/W19fHXDaUw4", "https://i.ytimg.com/vi/W19fHXDaUw4/maxresdefault.jpg"],
   [
     "I Fed 10,000 Families For Thanksgiving!",
     "https://youtu.be/ZdU3rWin0EQ",
@@ -104,14 +102,6 @@ final List beastPhilanthrophy = [
     "https://youtu.be/HpVGe9EE9-0",
     "https://i.ytimg.com/vi/HpVGe9EE9-0/maxresdefault.jpg"
   ],
-  [
-    "Feeding a City in Need",
-    "https://youtu.be/5rkMxc7yGSk",
-    "https://i.ytimg.com/vi/5rkMxc7yGSk/hqdefault.jpg"
-  ],
-  [
-    "I Opened My Own Charity!",
-    "https://youtu.be/f-empfLWbIk",
-    "https://i.ytimg.com/vi/f-empfLWbIk/maxresdefault.jpg"
-  ],
+  ["Feeding a City in Need", "https://youtu.be/5rkMxc7yGSk", "https://i.ytimg.com/vi/5rkMxc7yGSk/hqdefault.jpg"],
+  ["I Opened My Own Charity!", "https://youtu.be/f-empfLWbIk", "https://i.ytimg.com/vi/f-empfLWbIk/maxresdefault.jpg"],
 ];

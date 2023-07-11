@@ -1,12 +1,13 @@
+import 'package:best/screens/constants/beast_gaming.dart';
 import 'package:best/screens/constants/beast_philanthropy_const.dart';
+import 'package:best/screens/constants/beast_reacts.dart';
 import 'package:best/screens/constants/main_channel_const.dart';
 import 'package:best/screens/constants/mrbeast_2_const.dart';
 import 'package:best/screens/home/homepage.dart';
+import 'package:best/widgets/urls.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:shimmer/shimmer.dart';
-
-import '../player/player.dart';
 
 class FirstPage extends StatelessWidget {
   const FirstPage({super.key});
@@ -69,28 +70,27 @@ class FirstPage extends StatelessWidget {
               const Color.fromARGB(255, 75, 4, 70),
               context,
               const Homepage(
-                endex: 0,
+                endex: 3,
                 apptitle: "Beast Reacts",
               ),
-              mainChannel),
+              beastReacts),
           sizedbox1,
           customListView(
               "MrBeast Gaming",
               const Color.fromARGB(255, 22, 51, 22),
               context,
               const Homepage(
-                endex: 0,
+                endex: 4,
                 apptitle: "MrBeast Gaming",
               ),
-              mainChannel),
+              beastGaming),
           sizedbox1
         ],
       ),
     );
   }
 
-  Widget customListView(
-      String title, Color colors, BuildContext context, var nav, List list) {
+  Widget customListView(String title, Color colors, BuildContext context, var nav, List list) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
@@ -101,8 +101,7 @@ class FirstPage extends StatelessWidget {
             children: [
               //title
               Container(
-                decoration: BoxDecoration(
-                    color: colors, borderRadius: BorderRadius.circular(2)),
+                decoration: BoxDecoration(color: colors, borderRadius: BorderRadius.circular(2)),
                 child: Padding(
                   padding: const EdgeInsets.fromLTRB(6, 4, 6, 4.0),
                   child: Text(
@@ -148,22 +147,13 @@ class FirstPage extends StatelessWidget {
                     children: [
                       InkWell(
                         onTap: () {
-                          Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                builder: ((context) => Player(
-                                      url: list[index][1],
-                                      title: list[index][0],
-                                    )),
-                              ));
+                          launchYouTubeApp(list[index][1]);
                         },
                         child: Container(
                             clipBehavior: Clip.antiAlias,
                             height: 150,
                             width: 280,
-                            decoration: BoxDecoration(
-                                color: colors,
-                                borderRadius: BorderRadius.circular(4)),
+                            decoration: BoxDecoration(color: colors, borderRadius: BorderRadius.circular(4)),
                             child: CachedNetworkImage(
                               imageUrl: list[index][2],
                               fit: BoxFit.cover,
@@ -171,13 +161,12 @@ class FirstPage extends StatelessWidget {
                                 "images/cover.jpg",
                                 fit: BoxFit.cover,
                               ),
-                              errorWidget: (context, url, error) =>
-                                  Shimmer.fromColors(
-                                      baseColor: Colors.grey.shade200,
-                                      highlightColor: Colors.grey.shade100,
-                                      child: Container(
-                                        color: Colors.teal,
-                                      )),
+                              errorWidget: (context, url, error) => Shimmer.fromColors(
+                                  baseColor: Colors.grey.shade200,
+                                  highlightColor: Colors.grey.shade100,
+                                  child: Container(
+                                    color: Colors.teal,
+                                  )),
                             )
                             // Image(
                             //   image: NetworkImage(list[index][2]),

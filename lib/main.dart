@@ -1,11 +1,31 @@
-// ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
-
+import 'package:best/screens/constants/ad.dart';
 import 'package:best/screens/constants/screen.dart';
 import 'package:flutter/material.dart';
+import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await MobileAds.instance.initialize();
+  RequestConfiguration requestConfiguration =
+      RequestConfiguration(testDeviceIds: devices);
+  MobileAds.instance.updateRequestConfiguration(requestConfiguration);
+  loadAppOpenAd();
   runApp(const MyApp());
+}
+
+AppOpenAd? appOpenAd;
+loadAppOpenAd() {
+  AppOpenAd.load(
+      adUnitId: openAdUnit,
+      request: const AdRequest(),
+      adLoadCallback: AppOpenAdLoadCallback(onAdLoaded: (ad) {
+        appOpenAd = ad;
+        appOpenAd!.show();
+      }, onAdFailedToLoad: (error) {
+        print(error);
+      }),
+      orientation: AppOpenAd.orientationPortrait);
 }
 
 class MyApp extends StatefulWidget {
@@ -29,7 +49,7 @@ class _MyAppState extends State<MyApp> {
           bottomNavigationBar: Container(
             clipBehavior: Clip.antiAliasWithSaveLayer,
             decoration: BoxDecoration(
-                color: Color.fromARGB(255, 1, 90, 81),
+                color: const Color.fromARGB(255, 1, 90, 81),
                 borderRadius: BorderRadius.circular(8)),
             child: Padding(
               padding: const EdgeInsets.all(4.0),
@@ -42,11 +62,11 @@ class _MyAppState extends State<MyApp> {
                 },
                 gap: 8,
                 padding: const EdgeInsets.all(16),
-                backgroundColor: Color.fromARGB(255, 1, 90, 81),
+                backgroundColor: const Color.fromARGB(255, 1, 90, 81),
                 activeColor: Colors.white,
                 color: Colors.white,
                 tabBackgroundColor: Colors.teal.shade800,
-                tabs: [
+                tabs: const [
                   GButton(
                     icon: Icons.home,
                     text: 'Home',
